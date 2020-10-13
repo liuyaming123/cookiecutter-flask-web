@@ -7,7 +7,7 @@ include = ["{{ cookiecutter.pkg_name }}/templates/", "{{ cookiecutter.pkg_name }
 
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 flask = "^1.0"
 pyjwt = "^1.7"
 flask_sqlalchemy = "^2.3"
@@ -15,7 +15,7 @@ flask_migrate = "^2.3"
 mypy_extensions = "^0.4.1"
 python-dotenv = "^0.10.1"
 ipython = "^7.2"
-pyyml = '^5.3.1'
+pyyml = '^0.0.2'
 voluptuous = "^0.11.5"
 pymysql = "^0.9.3"
 
